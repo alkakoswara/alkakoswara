@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Alka Tadra Koswara</title>
+  <desc id="desc">A black hole themed banner for a data analyst, business intelligence specialist, and data scientist</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#02030a"/>
+      <stop offset=".52" stop-color="#080b1d"/>
+      <stop offset="1" stop-color="#12091f"/>
+    </linearGradient>
+    <linearGradient id="disk" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#55d6ff" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#55d6ff"/>
+      <stop offset=".5" stop-color="#fff1b8"/>
+      <stop offset=".72" stop-color="#ff9f43"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#fff4c7" stop-opacity=".85"/>
+      <stop offset=".18" stop-color="#ff9f43" stop-opacity=".62"/>
+      <stop offset=".46" stop-color="#8b5cf6" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f4f8ff"/>
+      <stop offset=".45" stop-color="#55d6ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="stars" width="105" height="74" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="18" r="1" fill="#fff" opacity=".75"/>
+      <circle cx="69" cy="9" r=".8" fill="#55d6ff" opacity=".7"/>
+      <circle cx="41" cy="58" r="1.2" fill="#a78bfa" opacity=".55"/>
+      <circle cx="94" cy="47" r=".6" fill="#fff" opacity=".48"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="9"/></filter>
+    <style>
+      .orbit{animation:orbit 9s linear infinite;transform-origin:930px 180px}.orbit.reverse{animation-direction:reverse;animation-duration:13s}.star{animation:pulse 2.6s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}.star.delay{animation-delay:1.2s}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes pulse{from{opacity:.3;transform:scale(.7)}to{opacity:1;transform:scale(1.25)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#space)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#stars)"/>
+  <path d="M0 308Q170 278 340 312T670 300T1010 310T1200 286V360H0Z" fill="#010207" opacity=".72"/>
+
+  <g opacity=".35" fill="none" stroke="#55d6ff">
+    <path d="M55 278C240 220 395 245 552 178" stroke-width="1" stroke-dasharray="4 10"/>
+    <path d="M76 301C259 256 424 272 602 210" stroke-width=".7" stroke-dasharray="2 12"/>
+  </g>
+
+  <g>
+    <circle cx="930" cy="180" r="170" fill="url(#halo)" filter="url(#blur)" opacity=".72"/>
+    <ellipse cx="930" cy="180" rx="215" ry="67" fill="none" stroke="url(#disk)" stroke-width="24" filter="url(#glow)" opacity=".86" transform="rotate(-12 930 180)"/>
+    <ellipse class="orbit" cx="930" cy="180" rx="221" ry="70" fill="none" stroke="url(#disk)" stroke-width="5" stroke-dasharray="32 16 6 24" transform="rotate(-12 930 180)"/>
+    <ellipse class="orbit reverse" cx="930" cy="180" rx="191" ry="54" fill="none" stroke="#55d6ff" stroke-opacity=".54" stroke-width="3" stroke-dasharray="10 22" transform="rotate(-12 930 180)"/>
+    <circle cx="930" cy="180" r="77" fill="#000" stroke="#17132a" stroke-width="3"/>
+    <circle cx="930" cy="180" r="86" fill="none" stroke="#fff2b8" stroke-opacity=".55" stroke-width="3" filter="url(#glow)"/>
+  </g>
+
+  <g fill="#fff" filter="url(#glow)">
+    <path class="star" d="M690 55l4 13 13 4-13 4-4 13-4-13-13-4 13-4Z"/>
+    <path class="star delay" d="M1110 66l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/>
+    <path class="star" d="M760 285l3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/>
+  </g>
+
+  <g font-family="Verdana, Arial, sans-serif">
+    <text x="70" y="127" fill="url(#titleGradient)" font-family="Georgia, 'Times New Roman', serif" font-size="49" font-weight="700" letter-spacing="2">ALKA TADRA</text>
+    <text x="70" y="184" fill="url(#titleGradient)" font-family="Georgia, 'Times New Roman', serif" font-size="49" font-weight="700" letter-spacing="2">KOSWARA</text>
+    <path d="M70 207H535" stroke="url(#disk)" stroke-width="2"/>
+    <text x="70" y="244" fill="#dbeafe" font-size="18" letter-spacing="4">DATA ANALYST · BI · DATA SCIENCE</text>
+    <text x="70" y="278" fill="#8292b8" font-size="14" letter-spacing="2">FINDING SIGNAL IN THE NOISE</text>
+  </g>
+
+  <rect x="2" y="2" width="1196" height="356" rx="26" fill="none" stroke="url(#disk)" stroke-width="3" opacity=".72"/>
+</svg>
