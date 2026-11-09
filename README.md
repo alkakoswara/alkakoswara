@@ -1,13 +1,6 @@
 <div align="center">
   <img width="100%" src="./assets/black-hole-header.svg" alt="Alka Tadra Koswara — Data Analyst, BI and Data Science" />
 </div>
-
-<div align="center">
-  <a href="mailto:alkakoswara@gmail.com"><img width="44" height="34" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" alt="Email Alka" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/alkatadrakoswara"><img width="44" height="34" src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" alt="LinkedIn Alka" /></a>
-</div>
-
 <br />
 
 <p align="center">
