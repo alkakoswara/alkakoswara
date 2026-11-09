@@ -47,7 +47,7 @@
 
 <h2 align="center">🐍 Event Horizon Contribution Trail</h2>
 
-<p align="center">The snake follows every contribution through the gravity well—only the strongest signals make it grow.</p>
+<p align="center">The snake follows every contribution through the gravity well only the strongest signals make it grow.</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alkakoswara/alkakoswara/snake-output/snake-contribution-graph-dark.svg">
